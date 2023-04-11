@@ -1,0 +1,28 @@
+.landingpage{
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    color: white;
+}
+
+.button{
+    font-family: 'Press Start 2P';
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 35, 35);
+    box-shadow: 3px 3px rgb(30, 20, 20);
+    color: wheat;
+    padding: 5px;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: wheat;
+}
+.button a:visited{
+    color: wheat;
+}

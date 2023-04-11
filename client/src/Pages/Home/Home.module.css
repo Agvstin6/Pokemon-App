@@ -1,0 +1,17 @@
+.home{
+    height: 150vh;
+    background-color: rgb(65, 48, 48);
+}
+.loading{
+    width: 100px;
+    margin-top: 100px;
+}
+.loadingDiv{
+    align-items: center;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;    
+}
+.loadingDiv span{
+    color: rgb(255, 227, 170);
+}

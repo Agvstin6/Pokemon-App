@@ -1,0 +1,51 @@
+.card{
+    padding: 15px;
+    border: 5px solid rgb(45, 35, 35);
+    width: 150px;
+    background-color: rgb(75, 65, 65);
+  
+}
+.card h4{
+    width: 100px;
+}
+.imgContainer{
+    background-color:rgb(45, 35, 35);
+}
+.card img{
+    background-image: url('../../assets/pokemon-background.jpg');
+    background-size: cover;
+    border: 2px solid rgb(45, 35, 35);
+    width: 100px;
+    height: 100px;
+}
+
+.card a{
+    color: wheat;
+    text-decoration: none;
+}
+.card a:visited{
+    text-decoration: none;
+    color: wheat;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.types{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+.types span{
+    font-size: smaller;
+    color: rgb(255, 227, 170);
+    background-color: rgb(45, 35, 35);
+    gap: 3px;
+}
+.name{
+    font-size: x-small;
+    max-width: 140px;
+}

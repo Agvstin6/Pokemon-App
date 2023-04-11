@@ -1,0 +1,29 @@
+.filterContainer{
+    position: fixed;
+    color: wheat;
+    background-color: rgb(65, 48, 48);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.selectContainer select{
+    font-family: 'Press Start 2P', cursive;
+    color: wheat;
+    border: none;
+    height: 30px;
+    width: 350px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(45, 35, 35);
+    cursor: pointer;
+}
